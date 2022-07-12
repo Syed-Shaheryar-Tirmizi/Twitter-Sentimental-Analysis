@@ -3,10 +3,10 @@ library(tm)
 library(syuzhet)
 library(ggplot2)
 
-consumer_key <-"3kViWlWuPQ9TMnhdDYn7hxmeb"
-consumer_secret <- "hPZJmxD5Zhp3BCGPaQ9l1iPZOoEoL6Plmh82CuMlEAn6HkwqB0"
-access_token <- "3150218942-HB2pA7BzWErkLkf5uwSmsaBgxVtANM3Som7bHi2"
-access_secret <- "SDGwBoJMisXeBt24WXoa6SVBVx1FekxCrAN448EOd0hwd"
+consumer_key <-"Enter your key"
+consumer_secret <- "Enter your key"
+access_token <- "Enter your key"
+access_secret <- "Enter your key"
 setup_twitter_oauth(consumer_key,consumer_secret,access_token,access_secret)
 a<- c("coronavirus","pakistan","filter:verified")
 as.String(a)
