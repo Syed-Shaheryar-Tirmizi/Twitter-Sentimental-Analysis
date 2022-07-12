@@ -5,10 +5,10 @@ from textblob import TextBlob # for doing sentimental analysis
 import re # regex for cleaning the tweets
 import string
 import matplotlib.pylab as plt
-consumer_key ="3kViWlWuPQ9TMnhdDYn7hxmeb"
-consumer_secret = "hPZJmxD5Zhp3BCGPaQ9l1iPZOoEoL6Plmh82CuMlEAn6HkwqB0"
-access_token = "3150218942-jlpBstQ6sJx6UDADGIL4Q1ndugm8mef0TwDwBEw"
-access_token_secret = "W1zWK7MUfdi3wd75Abd2HMwAHavAe42U6P4AB1YhydTAZ"
+consumer_key ="Enter your key"
+consumer_secret = "Enter your key"
+access_token = "Enter your key"
+access_token_secret = "Enter your key"
 
 def twitter():
     # Creating the authentication object
